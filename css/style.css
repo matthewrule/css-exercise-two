@@ -14,6 +14,7 @@ nav {
 h1{
   font-family: 'Source Sans Pro', Helvetica, Arial, Sans-serif;
   font-size: 4em;
+  color: Black;
   margin-bottom: 20px;
   text-align: Center;
   padding-top: 30px;
@@ -22,17 +23,24 @@ h1{
 h3{
   font-family: 'Source Sans Pro', Helvetica, Arial, Sans-serif;
   font-size: 2em;
+  font-style: bold;
+  color: Black;
   margin-bottom: 30px;
 }
 
 p{
   font-size: 100%;
-  text-indent: 15px;
+  line-height: 1.5;
+  color: Black;
   text-align: left;
   margin-bottom: 20px;
   font-family: 'Source Sans Pro', Helvetica, Arial, Sans-serif;
 }
 
+.author{
+  color: grey;
+
+}
 article {
   padding-top: 120px;
 }
@@ -44,6 +52,7 @@ article {
 
 figcaption{
   font-size: 1em;
+  color: grey;
   font-family: 'Source Sans Pro', Helvetica, Arial, Sans-serif;
   font-style: italic;
   margin-bottom: 25px;
