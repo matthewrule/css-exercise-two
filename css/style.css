@@ -6,7 +6,7 @@ body {
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,.8);
   float: left;
   position: fixed;
   width: 100%;
@@ -28,6 +28,12 @@ h3{
   line-height: 1.6;
   color: 11111;
   margin-bottom: 3%;
+}
+
+a{color: Red;}
+
+a:hover{
+  color: white;
 }
 
 p{
